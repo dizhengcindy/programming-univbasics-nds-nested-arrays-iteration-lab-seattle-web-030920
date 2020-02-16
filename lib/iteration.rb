@@ -11,6 +11,7 @@ def join_ingredients(src)
     col = 1 
     while col < src[row].count do
       puts "I love #{src[row][col-1]} and #{src[row][col]} on my pizza"
+      col += 1
     end
     row += 1
     end
